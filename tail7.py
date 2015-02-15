@@ -19,7 +19,7 @@ print 'we are trying', isprime(10,[2,3,5])
 
 
 
-while len(numbers) < 11000:
+while len(numbers) < 100:
     if isprime(i,numbers): 
     	    numbers.append(i)
     i = i + 1

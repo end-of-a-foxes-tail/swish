@@ -15,11 +15,11 @@ def checkme(num):
 	else: return False
 
 
-for i in range(1000)[800:]:
-	for j in range(1000)[i:]:
+for i in range(800,1000):
+	for j in range(i,1000):
 		now=i*j
-		if checkme(now): 
-			if now>max: max=now
+		if checkme(now) and now>max: 
+			max=now
 
 print max
 
