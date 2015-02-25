@@ -23,3 +23,5 @@ for i in range(800,1000):
 
 print max
 
+
+""" can reverse string by, [::-1]"""
